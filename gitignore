@@ -1,0 +1,23 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# MATLAB autosave and editor backup files
+*.asv
+*.m~
+*.mlx.autosave
+*.swp
+*.swo
+*~
+
+# MATLAB crash logs
+matlab_crash_dump.*
+
+# Generated Simulink / MATLAB build artifacts (if used)
+slprj/
+codegen/
+*.slxc
+
+# IMPORTANT: Do not ignore *.mat: powercurve_V164.mat is needed.
+# Reports (.pdf), figures, and source files (.m) are intentionally tracked.
